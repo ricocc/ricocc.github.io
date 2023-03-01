@@ -2,7 +2,7 @@
 
 
 
-### 1. 插件库 -  JParticles 随机粒子运动
+## 1. 插件库 -  JParticles 随机粒子运动
 
 同样也是这两个页面背景运用到的粒子效果插件  [ukrainebeauty.net/12](https://www.ukrainebeauty.net/qa/register12.php)  和  [ukrainebeauty.net/14](https://www.ukrainebeauty.net/qa/register14.php)
 粒子插件：[**JParticles - 一个简洁，高效，轻量级的 Canvas 粒子运动特效库**](https://jparticles.js.org/)
@@ -22,7 +22,7 @@
 
 
 
-### 2. Swiper 轮播插件
+## 2. Swiper 轮播插件
 
 [Swiper 中文网](https://www.swiper.com.cn/)
 
@@ -30,7 +30,7 @@
 
 
 
-### 3. ScrollTrigger 页面滚动触发 `HTML` 元素动画
+## 3. ScrollTrigger 页面滚动触发 `HTML` 元素动画
 
 _说明链接：_
 [膜拜！用最少的代码却实现了最牛逼的滚动动画！](https://juejin.cn/post/7038378577028448293)
@@ -44,7 +44,7 @@ _说明链接：_
 
 
 
-### 4. SplitText  将文本打散成数组从而进行动画
+## 4. SplitText  将文本打散成数组从而进行动画
 
 
 

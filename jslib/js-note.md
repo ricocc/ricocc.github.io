@@ -1,5 +1,6 @@
 # 代码块
-### 1. 前端JS无缝滚动
+
+## 1. 前端JS无缝滚动
 
 工作中网页会有特定场景需要用到滚动的需求，记录一下最后选择的方式
 参考文章： [前端js无缝滚动---解决两个小bug](https://blog.csdn.net/qq_34831149/article/details/86678848)
@@ -57,7 +58,7 @@ $(".lady-list-1").clone().addClass("lady-list-2").removeClass("lady-list-1").app
         });
 ```
 
-### 2. JQ 模拟在线人数自动变化
+## 2. JQ 模拟在线人数自动变化
 
 ```javascript
 // 在线人数自动变化插件
@@ -115,7 +116,7 @@ $(document).ready(function(){
 });
 ```
 
-### 3. JQ 鼠标移动元素位移
+## 3. JQ 鼠标移动元素位移
 ```javascript
 window.onload = function(){
     document.onmousemove = function(event){
@@ -127,7 +128,7 @@ window.onload = function(){
 };
 ```
 
-### 4. 原生 JS  倒计时
+## 4. 原生 JS  倒计时
 ```javascript
 /* num count */
 var count = 4;
@@ -148,7 +149,7 @@ HTML 部分
 <span id="timer"> </span>
 ```
 
-### 5. JQ 监听页面滚动加载元素
+## 5. JQ 监听页面滚动加载元素
 ```html
 class="revealOnScroll ani animated" data-animation="ani" data-timeout="50"
 ```
@@ -228,7 +229,7 @@ $(function() {
 });
 ```
 
-### 6. JS 判断移动端设备
+## 6. JS 判断移动端设备
 ```javascript
 $(function(){
   try {
@@ -246,7 +247,7 @@ $(function(){
 });
 ```
 
-### 7. CSS + JS 修改鼠标指针 cursor - 跟随交互
+## 7. CSS + JS 修改鼠标指针 cursor - 跟随交互
 参考这个站点的做法，实现代码。
 
 直接定位`cursor`
@@ -466,7 +467,7 @@ _参考阅读：_
   </body>
 </html>
 ```
-#### 原理
+### 原理
 由于不同浏览器所支持的光标文件格式不尽相同，Opera 和 IE 仅支持 .cur 格式，Firefox、Chrome 和 Safari 既支持 .cur 格式，也支持常见的 .jpg、.gif、.jpg 等格式。
 所以从通用性的角度来看，.cur 格式是最保险的，不过也不用担心，如果出现不兼容的情况，系统会选择默认的样式。
 作者：刘悦的技术博客
@@ -556,13 +557,13 @@ _参考阅读：_
 
 ---
 
-### 8.鼠标移入显示图片
+## 8.鼠标移入显示图片
 [鼠标移入显示图片](https://codepen.io/alphardex/pen/OJPmQGz)
 
 ---
 
 
-### 9. CSS3 横向无缝滚动
+## 9. CSS3 横向无缝滚动
 
 ```html
 <div class="position-row justify-center" style="visibility: visible;">
@@ -684,7 +685,7 @@ _参考阅读：_
 
 ---
 
-### 10. 优化网页滚动
+## 10. 优化网页滚动
 为网页滚动增加缓动效果，提升浏览体验。但是因为绑定了滚动事件，所以如果存在 返回顶部的 scrollTop 事件，会冲突。
 ```html
 <!-- 在页面载入，或者其他方式触发均可 -->
@@ -759,12 +760,12 @@ function SmoothScroll(target, speed, smooth) {
 ---
 
 
-### 11. hover 跟随显示图片
+## 11. hover 跟随显示图片
 
 
 ---
 
-### 12. 原生 JS 实现鼠标滚轮触发页面横向滚动
+## 12. 原生 JS 实现鼠标滚轮触发页面横向滚动
 
 ```html
   <style>
@@ -814,9 +815,9 @@ function SmoothScroll(target, speed, smooth) {
 
 ---
 
-### 13. 文字跑马灯 纯CSS版本
+## 13. 文字跑马灯 纯CSS版本
 
-#### 版本一：
+### 版本一：
 
 ```css
 <div class="c-rail-wrap" style="--scaleY:0;">
@@ -951,7 +952,7 @@ function SmoothScroll(target, speed, smooth) {
     }
 }
 ```
-#### 版本二：
+### 版本二：
 
 
 ```html
@@ -994,7 +995,7 @@ animation:infiniteString 10s linear infinite;
 
 ---
 
-### 14. marquee 图片左右横向滚动 纯CSS
+## 14. marquee 图片左右横向滚动 纯CSS
 
 ```css
     <div class="marquee marquee_right" style="background-image:url(https://i.gstatvb.com/0089d2b02baa073ab43ffc16b862408d1650618846.rng.png)"></div>
@@ -1070,7 +1071,7 @@ animation:infiniteString 10s linear infinite;
 
 ---
 
-### 15. 动态手绘线条
+## 15. 动态手绘线条
 
 
 ![image.png](https://cdn.nlark.com/yuque/0/2022/png/533230/1672045585163-056b42b1-a58f-440e-87af-29d016b567b6.png#averageHue=%23c3d4e7&clientId=u710765bc-c0ad-4&from=paste&height=82&id=ua744b771&name=image.png&originHeight=82&originWidth=380&originalType=binary&ratio=1&rotation=0&showTitle=false&size=11641&status=done&style=none&taskId=ua0b21dd8-bcc3-4726-8cc7-ffcc35249d9&title=&width=380)
@@ -1176,7 +1177,7 @@ to {
 
 ---
 
-### 16. css animation 实现颜色渐变动画
+## 16. css animation 实现颜色渐变动画
 3种颜色和五种颜色循环变换
 配合 blur 属性使用。
 ```html
@@ -1339,11 +1340,11 @@ to {
 
 ---
 
-### 
+## 
 
 ---
 
-### 17. 数值范围随机增减 - 原生JS 
+## 17. 数值范围随机增减 - 原生JS 
 ```javascript
 function randomNum(){
   let num=document.getElementById("num");

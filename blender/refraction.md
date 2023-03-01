@@ -35,7 +35,7 @@
 透明的合成树脂：1.495
 象牙：1.540
 
-![img](https://upload-images.jianshu.io/upload_images/4057683-161e4afec117cd0a.PNG?imageMogr2/auto-orient/strip|imageView2/2/w/966/format/webp)
+![img](../_images/blender/refraction-01.png)
 
 *第一行和第二行是IOR一致时，贝克曼和GGX的区别；注意糙度如何影响物体后的图像和折射效果；第三行是锐利类型下IOR不同，注意随着折射系数变高物体后图像的扭曲，与此同时菲涅尔效果造成更多的反射，显得更有光泽*
 

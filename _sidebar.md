@@ -6,13 +6,17 @@
 - 设计者说
     - [设计风格英文](design/words.md "常见的流行风格英文")
     - [设计风格特点](design/styles.md "常见的流行风格英文")
+    - [AE 基础速记](design/AE.md "AE 基础速记")
+
 
 - Blender
-     - [常见物体的折射指数](blender/refraction.md)
+    - [常见物体的折射指数](blender/refraction)
+    - [基础操作](blender/git)
+    - [玻璃材质探索](blender/project)
 
 - JS Library - JS库 
-    - [一些代码块速记](jslib/js-note.md)
     - [JS 插件库](jslib/jslib-plugins.md)
+    - [常用代码块记录](jslib/js-note.md.md)
     - [打字机效果](jslib/typed.md)
 
 - Vue和npm

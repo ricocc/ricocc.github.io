@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="_images/favicon2.ico" />
+    <link rel="shortcut icon" href="_images/favicon.png" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Rico的学习文档 | Rico的博客 Ricocc</title>
     <meta name="keywords" content="Ricocc,Rico,20201 web designer,会写代码的设计师,设计爱好者,前端爱好者,rico的个人网站,设计博客,设计学Vue,3D,Blender,docsify,设计师如何学习docsify,ricocc blog">
@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="themes/vue.css">
     <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar.min.css" /> -->
     <link rel="stylesheet" href="themes/sidebar-folder.min.css" />
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-R0CHPCY5WE"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
 
@@ -22,14 +23,21 @@
         gtag('js', new Date());
         gtag('config', 'G-R0CHPCY5WE');
     </script>
-
+    <style>
+        .app-name-link>img{
+            max-width: 78px;
+            max-height: 78px;
+            border-radius: 50%;
+            transition: all 0.3s ease-in-out;
+        }
+        .app-name-link>img:hover{
+            transform: scale(1.1);
+        }
+    </style>
 </head>
 
 <body>
     <div id="app">Loading...</div>
-
-
-
     <script>
         window.$docsify = {
             el: '#app',
@@ -40,13 +48,13 @@
                 '/.*/_sidebar.md': '/_sidebar.md',
             },
             //侧栏折叠
-            sidebarDisplayLevel: 1, // set sidebar display level    
+            sidebarDisplayLevel: 2, // set sidebar display level    
 
             // 头部导航
             loadNavbar: true,
 
             //logo name 
-            //logo: '_images/logo.svg',
+            logo: '_images/logo.png',
             name: 'RICOCC',
             nameLink: '/',
 
@@ -87,7 +95,7 @@
             //repo: 'https://github.com/zxiaosi/doc.git',
             footer: {
                 copy: '<span>Copyright &copy; 2021 &nbsp 💖 &nbsp</span>',
-                auth: ' <strong><a href="" target="_blank">Ricocc</a></strong>',
+                auth: ' <strong><a href="https://ricocc.com/" target="_blank">Ricocc</a></strong>',
                 pre: '<hr/>',
                 style: 'font-size: 18px; text-align: center;',
             },
@@ -97,17 +105,41 @@
         }
     </script>
 
-    <!-- <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script> -->
-    <script src="lib/docsify.min.js"></script>
-    <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
 
+<script src="lib/docsify.min.js"></script>
+<script src="lib/emoji.min.js"></script>
+<script src="lib/search.js"></script>
+<script src="lib/docsify-pagination.min.js"></script>
+<script src="lib/docsify-footer-enh.min.js"></script>
+<!-- 图片放大插件 -->
+<script src="lib/zoom-image.min.js"></script>
+<!-- 侧栏折叠插件 -->
+<script src="lib/docsify-sidebar-collapse.min.js"></script>
+
+<script>
+var links = document.links;
+for(var i=0, linksLength = links.length; i< linksLength; i++){
+    if(links[i].hostname != window.location,hostname){
+        linksp[i].target = '_blank';
+    }
+}
+
+</script>
+
+    <!-- <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script> -->
+    <!-- <script src="lib/docsify.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
     <script src="//unpkg.com/docsify/lib/plugins/search.js"></script>
     <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
-    <script src="//unpkg.com/docsify-footer-enh/dist/docsify-footer-enh.min.js"></script>
+    <script src="//unpkg.com/docsify-footer-enh/dist/docsify-footer-enh.min.js"></script> -->
     <!-- 图片放大插件 -->
-    <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+    <!-- <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script> -->
     <!-- 侧栏折叠插件 -->
-    <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
+    <!-- <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script> -->
+
+
+
+
 </body>
 
 </html>
