@@ -14,15 +14,21 @@
     - [基础操作](blender/git)
     - [玻璃材质探索](blender/project)
 
-- JS Library - JS库 
-    - [JS 插件库](jslib/jslib-plugins.md)
-    - [常用代码块记录](jslib/js-note.md.md)
-    - [打字机效果](jslib/typed.md)
 
 - Vue和npm
     - [Vue 安装和搭建](vue/start)
     - [Git 常用命令](vue/git)
     - [ Vue 项目学习记录](vue/project)
+    - [Yarn 使用指南](vue/yarn)
+
+
+
+- JS Library - JS库 
+    - [JS 插件库](jslib/jslib-plugins.md)
+    - [常用代码块记录](jslib/js-note.md.md)
+    - [打字机效果](jslib/typed.md)
+
+
    
 - PHP
     - [PHP 模板化页面结构](php/start)
