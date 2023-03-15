@@ -15,9 +15,10 @@ Node.js 的包管理器 npm，是全球最大的开源库生态系统。
 中文文档：http://nodejs.cn/api/
 官方网站：http://nodejs.cn/
 
+---
 
 
-#### 1. 起步
+## 1. 起步
 
 ```html
 <!-- 开发环境版本，包含了有帮助的命令行警告 -->
@@ -36,9 +37,9 @@ Node.js 的包管理器 npm，是全球最大的开源库生态系统。
 <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js">可以手动指定版本号</script>
 ```
 
+---
 
-
-#### 2. 安装和运行（2.x版本）
+## 2. 安装和运行（2.x版本）
 
 ```bash
 //安装 2.x 
@@ -150,8 +151,9 @@ npm uninstall jQuery
 //指定版本号
 npm install bootstrap@3 --save
 ```
+---
 
-#### 3. 2.x和3.x版本
+## 3. 2.x和3.x版本
 
 ##### **1）安装node & vue**
 
@@ -213,5 +215,68 @@ npm uninstall jquery --save
 npm install jquery@3 --save
 ```
 
+---
+
+## 4. --save-dev 和 --save 的差别 
+
+[dependencies 和 devDependencies 的区别](https://juejin.cn/post/7031181878380118047)
+**结论**
+
+对于自己要发布上线的项目，eslint、prettier 以及 ts 的 type 等等这些发布完全用不到的可以放到 `devDependencies` 下，然后上线打包部署的时候可以用 `npm install --production` 可以减少一些依赖安装时间吧，前提一定是不参与打包的；不过大部分人不用这个命令，那这时候就随便了，反正两种依赖都要安装。
+
+然后对于要发布到 npm 仓库的第三方模块，不影响本模块功能的都可以放到 `devDependencies` 下，这样别人在引用的模块时也不会安装这些模块，减少冲突。例如这时候被引入模块的 webpack、babel 依赖这时候对于引入方可能就不是必须的。
+
+"dependencies"：您的应用程序在生产中所需的包。
+"devDependencies": 只需要本地开发和测试的包。
+
+**说明**
+
+以下会在 **devDependencies** 里面添加依赖
+
+```bash
+--save-dev
+-D
+```
+
+以下会在 **dependencies** 里面添加依赖
+
+```bash
+--save
+-S
+```
+
+devDependencies 和 dependencies 可以同时存在同一个包的依赖。
+
+npm5 之后 `npm install xxx` 不加内容默认保存到 dependencies
+
+```bash
+1. --save 是生产环境需要的依赖 (eg: 开发框架，库: react,jq 等);
+2.  --save-dev 是开发环境需要的依赖 (eg: 构建工具，测试工具等)
+```
+
+```
+"dependencies"：您的应用程序在生产中所需的包。
+"devDependencies": 只需要本地开发和测试的包。
+```
 
 
+#### 差异：
+
+默认情况下，npm install将安装package.json里所有列为dependencies的模块。
+
+笔者解释：
+
+1. 这种依赖是**向下遍历**的，比如 A 库依赖 B 库，B 库依赖 C 库，在 A 库中 npm install 时，**会同时安装 B 和 C**！
+2. 但是 devDependencies 却不是，npm install 时只会在 node_modules 里安装当前项目的 devDep；比如 A 的开发依赖是 B，B 的开发依赖是 C，在 A 库里 npm install，**只会安装 B**！
+
+**结论**
+
+正常情况下，dependencies和devDependencies的影响不是直接的，而是跨代的!
+
+
+
+```bash
+（npm install 时）使用 --production 标志（或当 NODE_ENV 环境变量设置为 production），npm 将不会安装 devDependencies.
+```
+
+对，这里确实是符合`语义化` ,“生产模式” 不装 “开发环境的依赖”。看到这里，我突然意识到，为什么很多项目在 `build` 脚本中要使用 `--production` 了，原来这不是约定，而是规范。
