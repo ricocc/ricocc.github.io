@@ -10,7 +10,7 @@
 
 最好备注一下添加来源~
 
-下面是我的一些其他方面的入口，有兴趣也可以看看：
-- [**个人主页** - https://www.ricocc.com/](https://www.ricocc.com/)
-- [**网页版 Todo List**](https://www.ricocc.com/todo/)
-
+下面是我的一些其他小项目的入口，有兴趣也可以看看：
+- [**606 网页灵感**](https://www.606design.art/?ref=blog)
+- [**个人主页** - https://www.ricocc.com/](https://www.ricocc.com/?ref=blog)
+- [**网页版 Todo List**](https://www.ricocc.com/todo/?ref=blog)
