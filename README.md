@@ -16,6 +16,6 @@ title="公众号二维码" width="" height="100" />
 
 下面是我的一些其他小项目的入口，有兴趣也可以看看：
 - [**606 网页灵感**](https://www.606design.art/?ref=blog)
-- [**个人主页** - https://www.ricocc.com/](https://www.ricocc.com/?ref=blog)
-- [**网页版 Todo List**](https://www.ricocc.com/todo/?ref=blog)
-- [**Tink 摄影网站**](https://tink.606design.art/?ref=blog)
+- [**个人网站** - https://www.ricocc.com/](https://www.ricocc.com/?ref=blog)
+- [**网页版 Todo**](https://www.ricocc.com/todo/?ref=blog)
+- [**Tink 摄影网站(待完善)**](https://tink.606design.art/?ref=blog)
