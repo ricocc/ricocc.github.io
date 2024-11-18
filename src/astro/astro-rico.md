@@ -1,8 +1,9 @@
 Astro 官网：[https://docs.astro.build/zh-cn/getting-started/](https://docs.astro.build/zh-cn/getting-started/)
 
 作为一名 Web 设计师，我在进行前端开发的时候，可能较多考虑的是尽量减少开发过程中的心智负担，同时兼顾在学习设计和前端的前提下，需要耗费更多的时间和精力。
-一次在群里听群友推荐，然后去官网翻了文档，用 Astro 写了两个小网站：
+一次在群里听群友推荐，然后去官网翻了文档，用 Astro 开发了一些网站：
 
+- https://blog.ricocc.com/
 - https://www.606design.art/
 - https://tink.606design.art/
 

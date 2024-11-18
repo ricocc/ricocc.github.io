@@ -321,7 +321,7 @@ $(function(){
     height: 12em;
     max-height: 12em;
     max-width: 12em;
-    background-color: #f8f8f8;
+    background-color: #fafbff;
     -webkit-backdrop-filter: invert(0%);
     backdrop-filter: invert(0%)
 }

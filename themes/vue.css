@@ -55,6 +55,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   color: #34495e;
+  background-color: #f9f8f7;
   font-family: 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
   font-size: 15px;
   letter-spacing: 0;
@@ -196,7 +197,7 @@ main.hidden {
   transition: all 0.3s;
 }
 .anchor span {
-  color: #34495e;
+  color: #202a35;
 }
 .anchor:hover {
   text-decoration: underline;
@@ -349,10 +350,10 @@ body.sticky .sidebar-toggle {
   border-top: 1px solid #ccc;
 }
 .markdown-section tr:nth-child(2n) {
-  background-color: #f8f8f8;
+  background-color: #fafbff;
 }
 .markdown-section p.tip {
-  background-color: #f8f8f8;
+  background-color: #fafbff;
   border-bottom-right-radius: 2px;
   border-left: 4px solid #f66;
   border-top-right-radius: 2px;
@@ -695,7 +696,7 @@ body {
 }
 .markdown-section code,
 .markdown-section pre {
-  background-color: #f8f8f8;
+  background-color: #fafbff;
 }
 .markdown-section pre,
 .markdown-section output {
