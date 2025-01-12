@@ -1,8 +1,10 @@
 <!-- /_sidebar.md -->
 
-- [作者说](README "一个普通作者的自我声明！")
+- [作者说](README "Rico cc 网页设计师&开发者的笔记")
 <!-- - [作者](autor.md "一个普通作者的自我声明！") -->
 <!-- - [Blender](blender/guide) -->
+- 文章收藏
+    - [开发](src/collections/code.md)
 - Astro
     - [Astro使用技巧](src/astro/astro-start.md)
     - [Astro.js 踩坑经验记录](src/astro/astro-bugs.md)

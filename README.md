@@ -1,5 +1,4 @@
-# Rico 的技术文档
-欢迎来到我的个人文档。
+# Rico 的个人笔记
 
 我是Rico，一个喜欢折腾的设计师，目前主要专注在网页视觉开发，自我定位方向是 UI Engineer，也研究研究 3D，也有还算丰富的建站经验。这里是我的其中一个站点，主要记录技术相关的内容。
 
@@ -15,9 +14,6 @@
 </a>
 <a href="https://www.606design.art/?ref=blog" target="_blank">
   <img src="/_images/about/606.jpg" alt="💡606 设计灵感" width="270" style="margin:6px; display:inline-block;border-radius:6px;border:1px dashed #e0e0e0;box-sizing: content-box;">
-</a>
-<a href="https://www.ricocc.com/todo/?ref=blog" target="_blank">
-  <img src="/_images/about/606store.jpg" alt="🔥606 创意商店" width="270" style="margin:6px; display:inline-block;border-radius:6px;border:1px dashed #e0e0e0;box-sizing: content-box;">
 </a>
 <a href="https://www.ricocc.com/todo/?ref=blog" target="_blank">
   <img src="/_images/about/3dvalentine.jpg" alt="🔥3D 情人节资产库" width="270" style="margin:6px; display:inline-block;border-radius:6px;border:1px dashed #e0e0e0;box-sizing: content-box;">
