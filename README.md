@@ -9,25 +9,25 @@
 <a href="https://www.ricocc.com/todo/?ref=blog" target="_blank">
   <img src="/_images/about/todo.jpg" alt="🔥网页版 Todo List" width="270" style="margin:6px; display:inline-block;border-radius:6px;border:1px dashed #e0e0e0;box-sizing: content-box;">
 </a>
-<a href="https://www.ricocc.com/todo/?ref=blog" target="_blank">
+<a href="https://blog.ricocc.com/?ref=blog" target="_blank">
   <img src="/_images/about/rico2024.jpg" alt="🔥设计师的个人网站-2024版" width="270" style="margin:6px; display:inline-block;border-radius:6px;border:1px dashed #e0e0e0;box-sizing: content-box;">
 </a>
 <a href="https://www.606design.art/?ref=blog" target="_blank">
   <img src="/_images/about/606.jpg" alt="💡606 设计灵感" width="270" style="margin:6px; display:inline-block;border-radius:6px;border:1px dashed #e0e0e0;box-sizing: content-box;">
 </a>
-<a href="https://www.ricocc.com/todo/?ref=blog" target="_blank">
+<a href="https://web.606design.art/landings/004-free-3d-valentines-assets/" target="_blank">
   <img src="/_images/about/3dvalentine.jpg" alt="🔥3D 情人节资产库" width="270" style="margin:6px; display:inline-block;border-radius:6px;border:1px dashed #e0e0e0;box-sizing: content-box;">
 </a>
-<a href="https://www.ricocc.com/todo/?ref=blog" target="_blank">
+<!-- <a href="https://www.ricocc.com/todo/?ref=blog" target="_blank">
   <img src="/_images/about/blog.jpg" alt="🔥技术文档" width="270" style="margin:6px; display:inline-block;border-radius:6px;border:1px dashed #e0e0e0;box-sizing: content-box;">
-</a>
-<a href="https://www.ricocc.com/todo/?ref=blog" target="_blank">
+</a> -->
+<a href="https://www.ricocc.com/?ref=blog" target="_blank">
   <img src="/_images/about/rico2023.jpg" alt="Rico的个人网站2023" width="270" style="margin:6px; display:inline-block;border-radius:6px;border:1px dashed #e0e0e0;box-sizing: content-box;">
 </a>
 <a href="https://tink.606design.art/?ref=blog" target="_blank">
   <img src="/_images/about/tink.jpg" alt="💎Tink 摄影网站" width="270" style="margin:6px; display:inline-block;border-radius:6px;border:1px dashed #e0e0e0;box-sizing: content-box;">
 </a>
-<a href="https://www.ricocc.com/todo/?ref=blog" target="_blank">
+<a href="javascript:void();" target="_blank">
   <img src="/_images/about/travel.jpg" alt="去旅行吧" width="270" style="margin:6px; display:inline-block;border-radius:6px;border:1px dashed #e0e0e0;box-sizing: content-box;">
 </a>
 
