@@ -6,15 +6,19 @@
 
 下面是我的一些其他小项目的入口，有兴趣也可以看看：
 <br/>
+<a href="https://inspoweb.com/?ref=blog" target="_blank">
+  <img src="/_images/about/inspoweb.jpg" alt="💡设计灵感" width="270" style="margin:6px; display:inline-block;border-radius:6px;border:1px dashed #e0e0e0;box-sizing: content-box;">
+</a>
+<a href="http://gradientshub.com/?ref=blog" target="_blank">
+  <img src="/_images/about/gradientshub.jpg" alt="💡渐变背景" width="270" style="margin:6px; display:inline-block;border-radius:6px;border:1px dashed #e0e0e0;box-sizing: content-box;">
+</a>
 <a href="https://www.ricocc.com/todo/?ref=blog" target="_blank">
   <img src="/_images/about/todo.jpg" alt="🔥网页版 Todo List" width="270" style="margin:6px; display:inline-block;border-radius:6px;border:1px dashed #e0e0e0;box-sizing: content-box;">
 </a>
 <a href="https://blog.ricocc.com/?ref=blog" target="_blank">
   <img src="/_images/about/rico2024.jpg" alt="🔥设计师的个人网站-2024版" width="270" style="margin:6px; display:inline-block;border-radius:6px;border:1px dashed #e0e0e0;box-sizing: content-box;">
 </a>
-<a href="https://www.606design.art/?ref=blog" target="_blank">
-  <img src="/_images/about/606.jpg" alt="💡606 设计灵感" width="270" style="margin:6px; display:inline-block;border-radius:6px;border:1px dashed #e0e0e0;box-sizing: content-box;">
-</a>
+
 <a href="https://web.606design.art/landings/004-free-3d-valentines-assets/" target="_blank">
   <img src="/_images/about/3dvalentine.jpg" alt="🔥3D 情人节资产库" width="270" style="margin:6px; display:inline-block;border-radius:6px;border:1px dashed #e0e0e0;box-sizing: content-box;">
 </a>
@@ -45,7 +49,7 @@ title="公众号二维码" width="" height="100" />
 
 
 <!-- - [**🔥网页版 Todo List**](https://www.ricocc.com/todo/?ref=blog)
-- [**💡606 网页灵感**](https://www.606design.art/?ref=blog)
+- [**💡606 网页灵感**](https://inspoweb.com/?ref=blog)
 - [**个人网站** - https://www.ricocc.com/](https://www.ricocc.com/?ref=blog)
 - [**💎Tink 摄影网站**](https://tink.606design.art/?ref=blog)
 - [**⛺旅行生活 moible**](https://travellife.zeabur.app/?ref=blog)

@@ -4,7 +4,7 @@ Astro 官网：[https://docs.astro.build/zh-cn/getting-started/](https://docs.as
 一次在群里听群友推荐，然后去官网翻了文档，用 Astro 开发了一些网站：
 
 - https://blog.ricocc.com/
-- https://www.606design.art/
+- https://inspoweb.com/
 - https://tink.606design.art/
 
 才下来写写体验，目前来看，Astro 很符合我的个人需求：小项目、自由化程度高，易上手，能够让我多数时间专注在网页实现上。
